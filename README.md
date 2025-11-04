@@ -1,2 +1,2 @@
-# nix-config
-NixOS config files
+## Nix Darwin config
+Flake + Home Manager
