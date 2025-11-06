@@ -5,7 +5,7 @@
 
     lfs.enable = true;
 
-    ignores = [ "**/.DS_STORE" ];
+    ignores = [ "**/.DS_STORE" ".vscode/" ".vscode/*" ];
 
     settings = {
       user = {

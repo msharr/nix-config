@@ -27,6 +27,8 @@
       "protonvpn"
       "google-chrome"
       "zen"
+
+      "chatgpt"
     ];
     brews = []; 
     taps = [];
