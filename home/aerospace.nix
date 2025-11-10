@@ -25,6 +25,15 @@
         };
       };
 
+      workspace-to-monitor-force-assignment = {
+        "1" = 1;  
+        "2" = 1;  
+        "3" = 1;  
+        "4" = 2;  
+        "5" = 2; 
+        "6" = 2;  
+      };
+
       mode.main.binding = {
         # Workspace navigation (alt + 1-6)
         "alt-1" = "workspace 1";
