@@ -69,6 +69,9 @@
 
         # Fullscreen using Aerospace's native mode
         "alt-f" = "fullscreen";
+        
+        # Maximize window (macOS native fullscreen, no gaps/padding)
+        "alt-m" = "macos-native-fullscreen";
       };
     };
   };

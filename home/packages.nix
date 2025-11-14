@@ -2,9 +2,8 @@
 {
   home = {
     packages = with pkgs; [
-      btop
-      gh
-      zoxide
+      # cli
+      btop gh zoxide  
     ];
   };
 }

@@ -44,22 +44,6 @@
             }];
           }
           {
-            description = "Alt + Q → Quit Application";
-            manipulators = [{
-              type = "basic";
-              from = {
-                key_code = "q";
-                modifiers = {
-                  mandatory = [ "option" ];
-                };
-              };
-              to = [{
-                key_code = "q";
-                modifiers = [ "command" ];
-              }];
-            }];
-          }
-          {
             description = "Alt + S → CleanShot Area Screenshot";
             manipulators = [{
               type = "basic";

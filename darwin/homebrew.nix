@@ -13,22 +13,17 @@
     global.brewfile = true;
 
     casks = [
-      "cleanshot"
-      "raycast"
-      "karabiner-elements"
+      # utilities
+      "cleanshot" "raycast" "karabiner-elements" "scroll-reverser"
 
-      "cursor"
-      "ghostty"
+      # development
+      "cursor" "ghostty"
 
-      "slack"
-      "notion"
+      # productivity
+      "slack" "notion" "1password" "protonvpn"
 
-      "1password"
-      "protonvpn"
-      "google-chrome"
-      "zen"
-
-      "chatgpt"
+      # browsers
+      "google-chrome" "zen" "chatgpt"
     ];
     brews = []; 
     taps = [];

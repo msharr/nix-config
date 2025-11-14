@@ -41,6 +41,11 @@
         # Position dock at bottom
         orientation = "bottom";
       };
+
+      spaces = {
+        # Displays have separate Spaces (prevents black screen on other monitor in fullscreen)
+        spans-displays = false;
+      };
     };
   };
 }
