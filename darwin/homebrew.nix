@@ -14,18 +14,21 @@
 
     casks = [
       # utilities
-      "cleanshot" "raycast" "karabiner-elements" "scroll-reverser"
+      "cleanshot" "raycast" "karabiner-elements" "scroll-reverser" "whatsapp" "eqmac" 
 
       # development
-      "cursor" "ghostty"
+      "cursor" "ghostty" "visual-studio-code"
 
       # productivity
-      "slack" "notion" "1password" "protonvpn"
+      "slack" "notion" "protonvpn" "spotify"
 
       # browsers
-      "google-chrome" "zen" "chatgpt"
+     "zen" "google-chrome" "chatgpt" 
     ];
     brews = []; 
     taps = [];
+    masApps = {
+      xcode = 497799835;      
+    };
   };
 }
