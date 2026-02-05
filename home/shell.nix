@@ -22,6 +22,7 @@ _: {
       ".." = "cd ..";
       "rebuild" = "sudo darwin-rebuild switch --flake ~/nix";
       "ds" = "NIXPKGS_ALLOW_INSECURE=1 nix develop --impure -c zsh";
+      "ipf" = "ipconfig getifaddr en0";
     };
   };
 

@@ -17,7 +17,7 @@
       "cleanshot" "raycast" "karabiner-elements" "scroll-reverser" "whatsapp" "eqmac" 
 
       # development
-      "cursor" "ghostty" "visual-studio-code"
+      "cursor" "ghostty" "visual-studio-code" "docker" 
 
       # productivity
       "slack" "notion" "protonvpn" "spotify"
@@ -25,10 +25,10 @@
       # browsers
      "zen" "google-chrome" "chatgpt" 
     ];
-    brews = []; 
+    brews = ["supabase" "awscli"]; 
     taps = [];
     masApps = {
-      xcode = 497799835;      
+    #  xcode = 497799835;      
     };
   };
 }
