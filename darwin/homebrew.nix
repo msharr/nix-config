@@ -17,10 +17,10 @@
       "cleanshot" "raycast" "karabiner-elements" "scroll-reverser" "whatsapp" "eqmac" 
 
       # development
-      "cursor" "ghostty" "visual-studio-code" "docker" 
+      "cursor" "ghostty" "visual-studio-code" "docker" "session-manager-plugin" "claude-code"
 
       # productivity
-      "slack" "notion" "protonvpn" "spotify"
+      "slack" "notion" "protonvpn" "spotify" "postman"
 
       # browsers
      "zen" "google-chrome" "chatgpt" 
