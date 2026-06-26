@@ -34,6 +34,7 @@
   home-manager = {
     useGlobalPkgs = true;
     useUserPackages = true;
+    backupFileExtension = "backup";
     users.${primaryUser} = {
       imports = [
         ../home

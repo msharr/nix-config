@@ -8,6 +8,7 @@
     ./karabiner.nix
     ./cursor.nix
     ./ghostty.nix
+    ./claude.nix
   ];
 
   home = {
