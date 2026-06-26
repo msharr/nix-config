@@ -17,13 +17,14 @@
       "cleanshot" "raycast" "karabiner-elements" "scroll-reverser" "whatsapp" "eqmac" 
 
       # development
-      "cursor" "ghostty" "visual-studio-code" "docker-desktop" "session-manager-plugin" "claude-code"
+      "cursor" "ghostty" "visual-studio-code" "docker-desktop" "session-manager-plugin" "claude-code" 
+      
 
       # productivity
       "slack" "notion" "protonvpn" "spotify" "postman" "linear-linear"
 
       # browsers
-      "zen" "google-chrome" "chatgpt" 
+      "zen" "google-chrome" "claude" 
     ];
     brews = ["supabase" "awscli"]; 
     taps = [];
