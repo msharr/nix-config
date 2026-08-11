@@ -14,14 +14,14 @@
 
     casks = [
       # utilities
-      "cleanshot" "raycast" "karabiner-elements" "scroll-reverser" "whatsapp" "eqmac" 
+      "cleanshot" "raycast" "karabiner-elements" "scroll-reverser" "eqmac" "keyboardcleantool"
 
       # development
       "cursor" "ghostty" "visual-studio-code" "docker-desktop" "session-manager-plugin" "claude-code" 
       
 
       # productivity
-      "slack" "notion" "protonvpn" "spotify" "postman" "linear-linear"
+      "slack" "whatsapp" "notion" "protonvpn" "spotify" "postman" "linear-linear" 
 
       # browsers
       "zen" "google-chrome" "claude" 
