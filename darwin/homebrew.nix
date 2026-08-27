@@ -21,7 +21,7 @@
       
 
       # productivity
-      "slack" "whatsapp" "notion" "protonvpn" "spotify" "postman" "linear-linear" 
+      "slack" "whatsapp" "notion" "protonvpn" "spotify" "postman" "linear" 
 
       # browsers
       "zen" "google-chrome" "claude" 
