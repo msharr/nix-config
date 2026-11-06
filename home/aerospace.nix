@@ -4,7 +4,7 @@
     enable = true;
     launchd.enable = true;
 
-    userSettings = {
+    settings = {
       "start-at-login" = true;
 
       "default-root-container-layout" = "tiles";
