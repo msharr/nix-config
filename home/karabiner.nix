@@ -14,22 +14,6 @@
       complex_modifications = {
         rules = [
           {
-            description = "Alt + Backspace → Open Raycast";
-            manipulators = [{
-              type = "basic";
-              from = {
-                key_code = "delete_or_backspace";
-                modifiers = {
-                  mandatory = [ "option" ];
-                };
-              };
-              to = [{
-                key_code = "spacebar";
-                modifiers = [ "option" ];
-              }];
-            }];
-          }
-          {
             description = "Alt + Return → Open Ghostty";
             manipulators = [{
               type = "basic";
