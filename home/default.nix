@@ -9,6 +9,7 @@
     ./cursor.nix
     ./ghostty.nix
     ./claude.nix
+    ./codex.nix
   ];
 
   home = {

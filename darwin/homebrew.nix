@@ -9,7 +9,6 @@
       cleanup = "zap";
     };
 
-    caskArgs.no_quarantine = true;
     global.brewfile = true;
 
     casks = [
@@ -17,7 +16,7 @@
       "cleanshot" "raycast" "karabiner-elements" "scroll-reverser" "eqmac" "keyboardcleantool"
 
       # development
-      "cursor" "ghostty" "visual-studio-code" "docker-desktop" "session-manager-plugin" "claude-code" 
+      "cursor" "ghostty" "visual-studio-code" "docker-desktop" "session-manager-plugin" "claude-code" "codex"
       
 
       # productivity
@@ -26,7 +25,7 @@
       # browsers
       "zen" "google-chrome" "claude" 
     ];
-    brews = ["supabase" "awscli"]; 
+    brews = ["supabase" "awscli" "container"];
     taps = [];
     masApps = {
     #  xcode = 497799835;      

@@ -24,7 +24,8 @@
                 };
               };
               to = [{
-                shell_command = "open -a Raycast";
+                key_code = "spacebar";
+                modifiers = [ "option" ];
               }];
             }];
           }
