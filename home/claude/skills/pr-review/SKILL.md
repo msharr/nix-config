@@ -1,16 +1,14 @@
 ---
-name: pr-review
+
+## name: pr-review
+
 description: Review a GitHub pull request — judge intent first, then hunt KISS/SOLID/YAGNI/DRY violations, then approve or request changes on GitHub. Use when the user asks to review a PR, review this branch, or says "review PR 123".
----
 
 # PR review
 
-Review a PR properly, then commit to a verdict on GitHub. Two failure modes to
-avoid: rubber-stamping, and nitpicking a PR whose _purpose_ you never checked.
+Review a PR properly, then commit to a verdict on GitHub. Two failure modes to avoid: rubber-stamping, and nitpicking a PR whose _purpose_ you never checked.
 
-**All written output — review body, inline comments — is 1–2 sentences per point.
-No preamble, no praise padding, no hedging ("maybe consider possibly"). Fewer
-words is better.**
+**All written output — review body, inline comments — is 1–2 sentences per point. No preamble, no praise padding, no hedging ("maybe consider possibly"). Fewer words is better.**
 
 ## Target
 
@@ -26,23 +24,17 @@ gh pr checks <n>
 
 Before judging any line of code, answer these for yourself:
 
-- **Why** does this exist — what problem, whose pain? Read the body and the
-  linked issue/ticket (fetch it if linked; Linear tools if it's a Linear ID).
+- **Why** does this exist — what problem, whose pain? Read the body and the linked issue/ticket (fetch it if linked; Linear tools if it's a Linear ID).
 - **Who is it for** — end user, teammate, ops, future maintainer?
-- **Does it actually address that?** Map the stated goal to the diff. Look for
-  the gap: partial fixes, symptom-patching over root cause, and scope creep
-  (changes unrelated to the stated goal).
+- **Does it actually address that?** Map the stated goal to the diff. Look for the gap: partial fixes, symptom-patching over root cause, and scope creep (changes unrelated to the stated goal).
 
-If intent is unclear from the PR and the ticket, say so and ask — don't guess.
-If the diff doesn't serve the stated intent, that's the review's headline; code
-quality is secondary.
+If intent is unclear from the PR and the ticket, say so and ask — don't guess. If the diff doesn't serve the stated intent, that's the review's headline; code quality is secondary.
 
 If there is a linear code on the PR, read using Linear MCP
 
 ## 2. Read the code, not just the diff
 
-Open the changed files and their callers/tests. A diff reads fine in isolation
-and still be wrong in context. Check tests exist for new behaviour.
+Open the changed files and their callers/tests. A diff reads fine in isolation and still be wrong in context. Check tests exist for new behaviour.
 
 Then look for real violations:
 
@@ -57,13 +49,18 @@ Then look for real violations:
   change together). Coincidentally similar code is not duplication; apply the
   rule of three before asking for an abstraction.
 
-Also flag correctness, security, and data-loss risks — principles never outrank
-a bug.
+Also flag correctness, security, and data-loss risks — principles never outrank a bug.
 
 Skip what tooling owns: formatting, lint, import order, style preference. Don't
 propose rewrites of code the PR didn't touch.
 
-## 3. Approve or request changes
+## 3. Read the code, not just the diff
+
+Leave inline comments on code, instead of one large review comment detatched from the code.
+
+In the main comment body mention that this is not a human review.
+
+## 4. Approve or request changes
 
 Rank findings: **blocking** (wrong, unsafe, or misses the intent) vs **note**
 (worth fixing, not worth blocking).
@@ -98,3 +95,11 @@ Notes
 
 GitHub refuses approval on your own PR — fall back to `--comment` and state the
 verdict in the body. Never approve without having read the diff.
+
+## 5. Report back
+
+If you are a chat application, report back to the user with a very concise summary:
+
+1. Feature: What or Bug fix: What
+2. Origin if it was a bug fix and how long
+3. Very short how
